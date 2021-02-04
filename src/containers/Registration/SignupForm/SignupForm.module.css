@@ -1,0 +1,63 @@
+.RegistrationContainer {
+    margin-bottom: 50px;
+}
+
+
+.formElement {
+    margin-bottom: 15px;
+}
+
+.formElement label {
+    font-weight: 600;
+    color: #3f3f3f !important;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.formElement input, .formElement textarea {
+    border: 1px solid #e6e6e6;
+    border-radius: 0;
+}
+
+.themeBtnStyle {
+    background: #fa5b23;
+    background: -moz-linear-gradient(top, #fa5b23 0%, #fc7b19 73%);
+    background: -webkit-linear-gradient(top, #fa5b23 0%,#fc7b19 73%);
+    background: linear-gradient(to bottom, #fa5b23 0%,#fc7b19 73%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa5b23', endColorstr='#fc7b19',GradientType=0 );
+}
+
+.RegisterForm {
+    margin: 80px 0;
+}
+
+.RegisterForm h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff5921;
+}
+
+.RegisterForm .registerBtnRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.RegisterForm .registerBtnRow button,
+.RegisterForm .registerBtnRow > div a {
+    margin: 0;
+
+}
+
+.RegisterForm .registerBtnRow > div {
+    font-size: 14px;
+    color: #3f3f3f;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.RegisterForm .registerBtnRow > div a {
+    padding: 0px;
+    text-transform: capitalize;
+    margin-left: 5px;
+}

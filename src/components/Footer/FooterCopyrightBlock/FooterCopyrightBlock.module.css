@@ -1,0 +1,12 @@
+.copyright {
+    font-size: 14px;
+    color: #424242;
+    font-weight: normal;
+}
+.copyrightRow {
+    align-items: center;
+}
+.copyrightWrapper {
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+}

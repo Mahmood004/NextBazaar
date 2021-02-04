@@ -1,0 +1,173 @@
+.container {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formElement {
+    margin: 0 0 20px -30px; 
+}
+
+.formElement select, .formElement input {
+    border: 1px solid #e6e6e6;
+    border-radius: 0
+}
+
+.profile-section {
+    margin: 35px 0;
+    background: #FFFFFF;
+    min-height: 380px;
+    width: 100%;
+}
+
+.profile-short-summary {
+    border-right: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profile-avatar {
+    border-radius: 50%;
+    width: 183px;
+    height: 183px;
+}
+
+.user-ads-stats {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-ads-stats span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-basic-info {
+    margin: 30px 0;
+}
+
+.profile-header-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.profile-body-info {
+    margin: 13px 20px;
+}
+
+.ad-section {
+    margin: 35px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ad-stats-navbar {
+    background: #FFF;
+    padding: 0;
+    height: 560px;
+}
+
+.ad-stats-navbar ul {
+    list-style: none;
+}
+
+.ad-stats-navbar ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 0.5px solid lightgray;
+    color: gray;
+    cursor: pointer;
+}
+
+.ad-stats-navbar ul li span:last {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.ad-stats-navbar ul li i {
+    margin-right: 20px;
+    color: gray
+}
+
+.ad-selected-navbar {
+    background: whitesmoke;
+}
+
+.ad-selected-navbar-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    background: #FFF;
+    min-height: 80px;
+    width: 101.5%;
+}
+.input-with-icon input[type="text"] {
+    padding-left: 35px;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 12px;
+    color: #fa5b23
+}
+
+.ad-selected-navbar-result {
+    width: 103.4%;
+    min-height: 400px;
+}
+
+img.card-img-top {
+    padding: 15px;
+    height: 200px;
+}
+
+.card-body {
+    padding: 0;
+    margin: 15px;
+    position: relative;
+}
+
+i.wrapped-circle {
+    border: 1px solid #ddd;
+    border-radius: 50%; 
+    padding: 10px; 
+    color: #fa5b23
+}
+
+.ad-stats-count {
+    border: 1px solid #ddd; 
+    border-radius: 50%; 
+    padding: 7px;
+}
+
+ul.ad-stats-list li.active {
+    background-color: #F2F2F2;
+}
+
+ul.ad-stats-list li.active span i,
+ul.ad-stats-list li.active span.ad-stats-count {
+    color: #fa5b23;
+}
+
+ul.ad-stats-list li.active span.ad-stats-count {
+    border: 1px solid #fa5b23;
+}
+

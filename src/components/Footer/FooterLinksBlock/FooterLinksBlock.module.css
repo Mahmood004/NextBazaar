@@ -1,0 +1,50 @@
+.linksWrapper {
+    padding: 30px 0 20px;
+}
+
+.linksBlock {
+    color: #424242;
+}
+
+.linksBlock .footerBlock h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.linksBlock .footerBlock ul {
+    list-style: none;
+}
+
+.linksBlock .footerBlock ul li a {
+    font-weight: normal;
+    color: #424242;
+    font-size: 14px;
+}
+
+.appIcons a {
+    background: url('../../../assets/images/app-stores.png') no-repeat;
+    min-height: 37px;
+    display: inline-block;
+    width: 121px;
+    margin-right: 10px;
+}
+
+.appIcons a:last-child {
+    background-position: 0 -40px;
+}
+
+.socialLinksBlock ul {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.socialLinksBlock ul li {
+    margin-right: 20px;
+    width: 30px;
+}
+
+.socialLinksBlock ul li:last-child, .appIcons a:last-child {
+    margin-right: 0;
+}

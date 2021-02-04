@@ -1,0 +1,230 @@
+.formElement {
+    margin: 0 0 20px -30px; 
+}
+
+.formElement select, .formElement input {
+    border: 1px solid #e6e6e6;
+    border-radius: 0
+}
+
+.themeBtnStyle {
+    background: #fa5b23;
+    background: -moz-linear-gradient(top, #fa5b23 0%, #fc7b19 73%);
+    background: -webkit-linear-gradient(top, #fa5b23 0%,#fc7b19 73%);
+    background: linear-gradient(to bottom, #fa5b23 0%,#fc7b19 73%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa5b23', endColorstr='#fc7b19',GradientType=0 );
+}
+
+.btnStyle {
+    height: 38px;
+    line-height: 14px;
+    text-transform: capitalize;
+    margin: auto
+}
+
+.mapSection {
+    background-color: #FFF;
+    box-sizing: border-box;
+    height: 310px;
+    width: 100%;
+    margin: 30px 0;
+    box-shadow: 4px 4px 4px 4px whitesmoke;
+    position: relative;
+    display: inline-block;
+    
+    
+}
+
+.mapSectionHeading {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.headingText {
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+.mapMarker {
+    margin-right: 10px;
+    color: #FB7130
+}
+
+.mapSectionContent {
+    position: absolute;
+    left: 40px;
+    top: 75px;
+    height: 300px;
+    width: 400px;
+}
+
+svg {
+    margin: 50px 180px;
+    padding-left: 100px;
+}
+
+.citiesBlock .blockLeft {
+    width: 67%;
+}
+
+.citiesBlock .blockRight {
+    width: 33%;
+}  
+
+.span {
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    color: darkgray
+}
+
+.ctgSection {
+    box-sizing: border-box;
+    margin: 10px 0;
+    height: 270px;
+    position: relative;
+}
+
+.ctgSectionHeading {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ctgSectionContent {
+    position: absolute;
+    background-color: #F8F8F8;
+    padding: 15px 0;
+    top: 40px;
+    left: 0;
+}
+
+.ctg .card-header {
+    height: 60px;
+}
+
+.ctg .card-body {
+    height: 135px;
+}
+
+.adSection {
+    box-sizing: border-box;
+    margin: 10px 0;
+    min-height: 900px;
+    position: relative;
+}
+
+.adSectionHeading {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.adSectionContent {
+    width: 100%;
+    min-height: 500px;
+    position: absolute;
+    background-color: #F8F8F8;
+    padding: 15px 0 0 0;
+    top: 40px;
+    left: 0;
+}
+
+.adCol {
+    margin-bottom: 20px;
+}
+
+.adCardImg {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.adCardBody {
+    padding: 0 12px 12px 12px;
+}
+
+.dropdown {
+    margin-left: 20px;
+    position: relative;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 6px 0px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+.dropdownContent {
+    position: absolute;
+    background-color: #F2F2F2;
+    min-width: 250px;
+    z-index: 1;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdownContent span {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    line-height: 0.4;
+    position: relative;
+  }
+
+.dropdownContent span:hover {
+    background-color: #fff;
+  }
+  
+.dropdown:hover .dropdownContent {
+    display: block;
+  }
+
+.subDropdown {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    padding: 10px;
+    background-color: #fff;
+    min-width: 700px;
+    /* min-height: 350px; */
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+.dropdownContent span:hover .subDropdown {
+    display: block;
+  }
+
+ul.pagination {
+      border: 1px solid #ddd;
+      background: #ddd;
+  }
+
+ul.pagination li {
+      margin: 10px;
+      border: 1px solid #ddd;
+      padding: 5px;
+  }
+
+ul.pagination li.disabled {
+      cursor: not-allowed;
+      opacity: 0.6;
+  }
+
+ul.pagination li.active {
+    cursor: not-allowed;
+    background: #FFF;
+}
+
+i.icon-heart-empty {
+    cursor: pointer;
+}

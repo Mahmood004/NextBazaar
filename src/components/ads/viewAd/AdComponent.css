@@ -1,0 +1,176 @@
+.ad-specs {
+    width: 75%;
+    min-height: 925px;
+    background: #FFF;
+    margin-top: 30px;
+    position: relative;
+}
+
+.ad-specs-section-first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.ad-specs-section-second, 
+.ad-specs-section-third, 
+.ad-specs-section-fourth, 
+.ad-specs-section-sixth {
+    padding: 15px;
+}
+
+.ad-specs-section-fifth {
+    padding: 0 15px;
+    position: relative;
+    min-height: 90px;
+}
+
+.seller-description {
+    margin-left: 15px;
+    width: 23.8%;
+    min-height: 925px;
+    background: #FFF;
+    margin-top: 30px;
+}
+
+.sel-des-section-first, 
+.sel-des-section-second, 
+.sel-des-section-third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.sel-des-section-fourth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 10px 20px;
+}
+
+.similar-ads-card-body-section-first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.similar-ads-card-body-section-second {
+    display: block;
+    margin-top: 10px;
+}
+
+.ad-top-stats {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.ad-action-icons {
+    border: 1px solid #ddd;
+    padding: 9px; 
+    border-radius: 20%;
+}
+
+.ad-central-img {
+    height: 300px;
+    width: 520px;
+}
+
+.ad-img-gallery {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.ad-img-item {
+    width: 130px;
+}
+
+.ad-comments-header {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.ad-comments-filter {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.commenter-avatar {
+    width: 40px; 
+    height: 40px;
+}
+
+.commenter-details {
+    position: absolute; 
+    left: 67px; 
+    top: -5px; 
+    display: flex; 
+    flex-direction: column;
+}
+
+.comment-input-field {
+    padding-right: 100px;
+    height: 55px;
+}
+
+.comment-submit-btn {
+    position: absolute; 
+    top: 0; 
+    right: 15px; 
+    margin: 8px 12px;
+}
+
+.similar-ads-card-body-section-third {
+    color: #fa5b23; 
+    font-size: 12px;
+}
+
+.similar-ads-card-body-section-fourth {
+    color: gray; 
+    font-size: 12px; 
+    margin-top: 20px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.comments-sortion {
+    width: 120px; 
+    margin-left: 5px;
+}
+
+.seller-details {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding-top: 15px;
+}
+
+.seller-avatar {
+    height: 50px; 
+    width: 50px; 
+    border-radius: 50%;
+}
+
+.safety-tips {
+    display: flex; 
+    flex-direction: column; 
+    padding-top: 15px;
+}
+
+.embed-map-iframe {
+    width: 261px; 
+    height: 250px; 
+    border-radius: 7px;
+}
+
+.rcs-block .css-4s45cn {
+    height: 30px;
+}
+

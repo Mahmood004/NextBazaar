@@ -1,0 +1,48 @@
+.AdForm {
+    margin: 80px 0;
+}
+
+.themeBtnStyle {
+    background: #fa5b23;
+    background: -moz-linear-gradient(top, #fa5b23 0%, #fc7b19 73%);
+    background: -webkit-linear-gradient(top, #fa5b23 0%,#fc7b19 73%);
+    background: linear-gradient(to bottom, #fa5b23 0%,#fc7b19 73%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa5b23', endColorstr='#fc7b19',GradientType=0 );
+}
+
+.formElement {
+    margin-bottom: 15px;
+}
+
+.formElement.customCheckbox {
+    line-height: 24px;
+}
+
+.formElement label {
+    font-weight: 600;
+    color: #3f3f3f !important;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.formElement input, .formElement textarea, .formElement select {
+    border: 1px solid #e6e6e6;
+    border-radius: 0;
+}
+
+.AdForm h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff5921;
+    margin-bottom: 25px;
+}
+
+.registerBtnRow button {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    text-transform: capitalize;
+    width: 100px;
+    padding: 14px 0;
+    margin: 0;
+}

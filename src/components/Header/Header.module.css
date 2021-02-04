@@ -1,0 +1,64 @@
+.headerContainer {
+    max-width: 1200px;margin: auto;
+}
+
+.removeExtraStyles {
+    background: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+
+.headerRight {
+    display: flex;justify-content: flex-end;min-height: 80px;align-items: center;
+}
+
+.themeBtn a {
+    background: #fa5b23;
+    background: -moz-linear-gradient(top, #fa5b23 0%, #fc7b19 73%);
+    background: -webkit-linear-gradient(top, #fa5b23 0%,#fc7b19 73%);
+    background: linear-gradient(to bottom, #fa5b23 0%,#fc7b19 73%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa5b23', endColorstr='#fc7b19',GradientType=0 );text-transform: none;font-weight: 600;color: #fff;border-radius: 2px;width: 99px;line-height: 45px;padding: 0;height: 44px;box-shadow: none;
+}
+
+.themelinkBtn, .countrySelection, .lanSelection {
+    margin-right: 17px;
+}
+
+.themelinkBtn a {
+    font-weight: bold;color: #ff5b1e !important;line-height: 26px;height: 26px;text-transform: capitalize;font-weight: 700;font-size: 14px;padding: 0;margin: 12px 0;
+}
+
+.themelinkBtn > span {
+    font-size: 13px;margin: 0 6px;
+}
+
+.lanDropDown > button.removeExtraStyles {
+    color: #000000 !important;
+    font-size: 14px;
+    padding: 0;
+    font-weight: normal;
+}
+
+.linksBlock .headerRight .themelinkBtn a:active, 
+.themelinkBtn a:hover, 
+.lanSelection .lanDropDown > button.btn-secondary:not([disabled]):not(.disabled):active,
+.lanSelection .lanDropDown > button.removeExtraStyles:active {
+    background: none !important;
+}
+
+.ddMenu  {
+    border-radius: 0;
+    padding: 0;
+}
+
+.ddMenu .ddMenuItem {
+    padding: 3px 10px;
+    font-weight: normal;
+    font-size: 14px;
+    outline: none;
+}
+
+.lanSelection .ddMenu .ddMenuItem:active {
+    background: #eaeaea;
+    color: #000000;
+}

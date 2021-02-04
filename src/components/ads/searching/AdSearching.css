@@ -1,0 +1,91 @@
+.formElement {
+    margin: 0 0 20px -30px; 
+}
+
+.formElement select, .formElement input {
+    border: 1px solid #e6e6e6;
+    border-radius: 0
+}
+
+.search-panel {
+    margin: 50px 0
+}
+
+.search-block-left {
+    height: auto;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+}
+
+.search-sidenav-header {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 0px 15px;
+    line-height: 2.8;
+    display: flex; 
+    justify-content: space-between; 
+    background-color: #fa5b23;
+    color: #FFF;
+}
+
+.reset {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: none;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-header {
+    background-color: #FFF;
+    border: none;
+}
+
+h6 {
+    font-weight: bold;
+    line-height: 1.7
+}
+
+.ctg-dropdown {
+    margin: 0 15px 15px 15px;
+    width: 90%;
+    border: 1px solid #fa5b23
+}
+
+.area-dropdown {
+    margin: 0 15px 15px 15px;
+    width: 90%;
+}
+
+.collapse-ctg-content {
+    margin: 0 0 20px 30px;
+    font-size: 14px;
+    font-weight: 400 !important
+}
+
+i.disp-icons {
+    cursor: pointer;
+}
+
+i.disp-icons.active {
+    color: #fa5b23;
+}
+
+.search-stats {
+    min-height: 70px;
+    background: #FFF;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
